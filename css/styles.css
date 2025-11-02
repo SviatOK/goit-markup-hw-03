@@ -108,6 +108,7 @@ body {
   background: #2e2f42;
   min-width: 1440px;
   min-height: 600px;
+  margin: 0;
 }
 
 .hero-banner-title {
@@ -151,6 +152,8 @@ body {
 .features-list {
   display: flex;
   margin: 120px 156px;
+  column-gap: 24px;
+  flex-basis: 1128px;
 }
 
 .features-title {
