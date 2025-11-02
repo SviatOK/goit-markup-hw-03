@@ -18,6 +18,19 @@ body {
   align-items: center;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Navigation section start */
 
 .page-header .container {
@@ -77,9 +90,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
   display: block;
   padding: 24px 0;
+  color: #434455;
 }
 
 .contacts:hover,
@@ -93,6 +106,8 @@ body {
 
 .hero-banner {
   background: #2e2f42;
+  min-width: 1440px;
+  min-height: 600px;
 }
 
 .hero-banner-title {
@@ -102,6 +117,10 @@ body {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-top: 188px;
 }
 
 .hero-banner-button {
@@ -113,6 +132,11 @@ body {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .hero-banner-button:hover,
@@ -124,8 +148,9 @@ body {
 
 /* Features section start */
 
-.features {
-  background-color: #f4f4fd;
+.features-list {
+  display: flex;
+  margin: 120px 156px;
 }
 
 .features-title {
