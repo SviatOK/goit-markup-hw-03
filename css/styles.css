@@ -180,7 +180,7 @@ img {
 }
 
 .features-list-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-title {
@@ -216,17 +216,17 @@ img {
   padding: 120px 0;
 }
 
-.team-list-item {
-  flex-basis: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  background-color: #ffffff;
-}
-
 .team-list {
   display: flex;
   gap: 24px;
   align-items: center;
   flex-basis: 1128px;
+}
+
+.team-list-item {
+  flex-basis: calc((100% - 3 * 24px));
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -287,7 +287,7 @@ img {
   justify-content: stretch;
   column-gap: 24px;
   row-gap: 48px;
-  flex-basis: 1128px;
+  width: 1128px;
   padding-left: 156px;
   padding-right: 161px;
 }
@@ -301,7 +301,7 @@ img {
 }
 
 .portfolio-list-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-list-item-subtitle {
   font-size: 16px;
