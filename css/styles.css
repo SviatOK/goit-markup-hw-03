@@ -176,8 +176,8 @@ img {
   align-items: center;
   gap: 24px;
   margin: 120px 156px;
-  /* width: 1128px;
-  justify-content: center;*/
+  max-width: 1128px;
+  justify-content: center;
 }
 
 .features-list-item {
