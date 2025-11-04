@@ -174,6 +174,7 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
+  width: 100%;
   /*align-items: center;
   margin: 120px 156px;
   width: 1128px;
@@ -220,6 +221,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
+  width: 100%;
   /*align-items: center;
   width: 1128px;
   justify-content: center;*/
