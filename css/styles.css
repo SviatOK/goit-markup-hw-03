@@ -180,6 +180,9 @@ img {
 }
 
 .features-list-item {
+}
+
+.features-list-item-first {
   width: calc((100% - 72px) / 4);
 }
 
@@ -221,15 +224,16 @@ img {
   gap: 24px;
   align-items: center;
   width: 1128px;
-  align-items: center;
 }
 
 .team-list-item {
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
+.team-list-item-first {
+  width: calc((100% - 72px) / 4);
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -284,7 +288,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  gap: 24px;
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
