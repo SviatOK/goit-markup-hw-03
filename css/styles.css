@@ -173,11 +173,11 @@ img {
 
 .features-list {
   display: flex;
-  align-items: center;
-  margin: 120px 156px;
   gap: 24px;
+  /*align-items: center;
+  margin: 120px 156px;
   width: 1128px;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 .features-list-item {
@@ -220,9 +220,9 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  align-items: center;
+  /*align-items: center;
   width: 1128px;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 .team-list-item {
