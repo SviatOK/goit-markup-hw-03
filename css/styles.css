@@ -179,9 +179,11 @@ img {
 }
 
 .features-list-item {
-  width: calc((100% - 72px) / 4);
 }
 
+.features-list li {
+  width: calc((100% - 72px) / 4);
+}
 .features-title {
   font-weight: 500;
   font-size: 20px;
