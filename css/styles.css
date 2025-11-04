@@ -173,17 +173,16 @@ img {
 
 .features-list {
   display: flex;
+  align-items: center;
   margin: 120px 156px;
   gap: 24px;
   flex-basis: 1128px;
 }
 
 .features-list-item {
-}
-
-.features-list li {
   width: calc((100% - 72px) / 4);
 }
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
