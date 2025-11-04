@@ -220,9 +220,10 @@ img {
 .team-list {
   display: flex;
   align-items: center;
-  /*gap: 24px;
-  width: 1128px;
-  justify-content: center;*/
+  gap: 24px;
+  width: 100%;
+  max-width: 1128px;
+  justify-content: center;
 }
 
 .team-list-item {
