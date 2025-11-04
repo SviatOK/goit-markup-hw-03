@@ -174,15 +174,14 @@ img {
 .features-list {
   display: flex;
   align-items: center;
-  /*align-items: center;
   gap: 24px;
   margin: 120px 156px;
-  width: 1128px;
+  /* width: 1128px;
   justify-content: center;*/
 }
 
 .features-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-title {
