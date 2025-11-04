@@ -180,9 +180,6 @@ img {
 }
 
 .features-list-item {
-}
-
-.features-list-item-first {
   width: calc((100% - 72px) / 4);
 }
 
@@ -229,11 +226,9 @@ img {
 .team-list-item {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
-}
-
-.team-list-item-first {
   width: calc((100% - 72px) / 4);
 }
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -287,6 +282,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
   row-gap: 48px;
   width: 100%;
   max-width: 1158px;
