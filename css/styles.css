@@ -178,9 +178,6 @@ img {
   flex-basis: 1128px;
 }
 
-.features-list:first-child {
-  width: calc((100% - 72px) / 4);
-}
 .features-list-item {
   width: calc((100% - 72px) / 4);
 }
