@@ -221,6 +221,7 @@ img {
   gap: 24px;
   align-items: center;
   width: 1128px;
+  align-items: center;
 }
 
 .team-list-item {
@@ -287,6 +288,7 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0;
+  align-items: center;
 }
 
 .portfolio-list-item-title {
