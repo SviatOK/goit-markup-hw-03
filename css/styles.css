@@ -177,6 +177,7 @@ img {
   margin: 120px 156px;
   gap: 24px;
   width: 1128px;
+  justify-content: center;
 }
 
 .features-list-item {
@@ -221,6 +222,7 @@ img {
   gap: 24px;
   align-items: center;
   width: 1128px;
+  justify-content: center;
 }
 
 .team-list-item {
