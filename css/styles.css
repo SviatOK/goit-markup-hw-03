@@ -18,6 +18,7 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
 }
 /* Navigation section start */
 
@@ -177,6 +178,9 @@ img {
   flex-basis: 1128px;
 }
 
+.features-list:first-child {
+  width: calc((100% - 72px) / 4);
+}
 .features-list-item {
   width: calc((100% - 72px) / 4);
 }
@@ -254,10 +258,12 @@ img {
   text-align: center;
 }
 
-.team-member {
+.team-member-text {
   padding: 32px 0;
 }
 
+.team-member-image {
+}
 /* Team section end */
 
 /* Portfolio section start */
@@ -308,6 +314,7 @@ img {
 .portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* Portfolio section end */
