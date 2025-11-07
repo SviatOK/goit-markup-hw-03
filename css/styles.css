@@ -20,6 +20,11 @@ img {
   display: block;
   max-width: 100%;
 }
+
+li {
+  padding: 0;
+  margin: 0;
+}
 /* Navigation section start */
 
 .page-header {
@@ -173,12 +178,7 @@ img {
 
 .features-list {
   display: flex;
-  align-items: center;
-  margin: 0 auto;
   gap: 24px;
-  width: 100%;
-  max-width: 1158px;
-  justify-content: center;
 }
 
 .features-list-item {
@@ -231,7 +231,7 @@ img {
 .team-list-item {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
-  width: calc((100% - 72px)/4);
+  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
