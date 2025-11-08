@@ -13,8 +13,11 @@ body {
   background-color: #ffffff;
 }
 
-/*.container {
-}*/
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 img {
   display: block;
@@ -179,6 +182,8 @@ li {
 .features-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .features-list-item {
@@ -220,12 +225,9 @@ li {
 
 .team-list {
   display: flex;
-  align-items: center;
-  margin: 0 auto;
+  margin: 0;
+  padding-left: 0;
   gap: 24px;
-  width: 100%;
-  max-width: 1158px;
-  justify-content: center;
 }
 
 .team-list-item {
