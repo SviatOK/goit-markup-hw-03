@@ -348,8 +348,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 100px;
-  padding-left: 156px;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -363,8 +361,6 @@ p {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 16px;
-  padding-left: 156px;
   max-width: 264px;
 }
 
