@@ -98,7 +98,7 @@ p {
 .contacts-list {
   display: flex;
   font-style: normal;
-  column-gap: 40px;
+  gap: 40px;
   flex-wrap: nowrap;
   align-items: center;
   min-height: 72px;
